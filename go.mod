@@ -1,3 +1,3 @@
-module github.com/axetroy/dvm
+module github.com/axetroy/go-cli-boilerplate
 
 go 1.15
