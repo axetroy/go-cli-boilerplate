@@ -6,17 +6,7 @@
 
 ## go-cli-boilerplate
 
-`go-cli-boilerplate` is a command-line tool to manage Deno versions.
-
-Focus on the simplest way to manage versions.
-
-Features:
-
-- [x] Cross-platform support
-- [x] Easy to use
-- [x] No runtime dependencies
-- [x] Zero configuration
-- [x] Fully compatible with installed Deno
+> go-cli-boilerplate
 
 ### Usage
 
