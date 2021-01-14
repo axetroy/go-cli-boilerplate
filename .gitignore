@@ -15,5 +15,4 @@
 # vendor/
 
 .idea
-bin
 dist
