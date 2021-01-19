@@ -12,8 +12,9 @@
     "README.md",
     "CHANGELOG.md",
     "LICENSE",
-    "bin/boilerplate",
-    "scripts/postinstall.js"
+    "bin/go-cli-boilerplate",
+    "scripts/postinstall.js",
+    "download/.gitkeep"
   ],
   "license": "MIT",
   "name": "@axetroy/go-cli-boilerplate",

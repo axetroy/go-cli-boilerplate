@@ -16,6 +16,12 @@
 
 ### Installation
 
+If you have installed nodejs, you can install it via npm
+
+```bash
+npm install @axetroy/go-cli-boilerplate -g
+```
+
 If you are using Linux/macOS. you can install it with the following command:
 
 ```shell
@@ -30,28 +36,6 @@ curl -sf https://gobinaries.com/axetroy/go-cli-boilerplate@v1.3.0 | sh
 Or
 
 Download the executable file for your platform at [release page](https://github.com/axetroy/go-cli-boilerplate/releases)
-
-Then set the environment variable.
-
-eg, the executable file is in the `~/bin` directory.
-
-```bash
-# ~/.bash_profile
-export PATH="$PATH:$HOME/bin"
-```
-
-then, try it out.
-
-```bash
-go-cli-boilerplate --help
-```
-
-Finally, to use Deno correctly, you also need to set environment variables
-
-```bash
-# ~/.bash_profile
-export PATH="$PATH:$HOME/.deno/bin"
-```
 
 ### Build from source code
 
