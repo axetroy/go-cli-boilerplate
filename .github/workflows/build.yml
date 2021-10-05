@@ -38,6 +38,7 @@ jobs:
           make test
           go mod tidy
           git checkout ./
+          git clean -df
 
       - name: Build
         uses: goreleaser/goreleaser-action@v2
