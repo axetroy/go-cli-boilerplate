@@ -18,37 +18,25 @@
 
 1. Shell (Mac/Linux)
 
-```bash
-# install latest version
-curl -fsSL https://raw.githubusercontent.com/axetroy/go-cli-boilerplate/master/install.sh | bash
-# or install specified version
-curl -fsSL https://raw.githubusercontent.com/axetroy/go-cli-boilerplate/master/install.sh | bash -s v0.1.0
-# or install from gobinaries.com
-curl -sf https://gobinaries.com/axetroy/go-cli-boilerplate@v0.1.0 | sh
-```
+   ```bash
+   curl -fsSL https://github.com/release-lab/install/raw/v1/install.sh | bash -s -- -r=axetroy/go-cli-boilerplate -e=go-cli-boilerplate
+   ```
 
 2. PowerShell (Windows):
 
-```bash
-# install latest version
-iwr https://github.com/axetroy/go-cli-boilerplate/raw/master/install.ps1 -useb | iex
-# or install specified version
-$v="v0.1.0"; iwr https://github.com/axetroy/go-cli-boilerplate/raw/master/install.ps1 -useb | iex
-```
+   ```powershell
+   $r="axetroy/go-cli-boilerplate";$e="go-cli-boilerplate";iwr https://github.com/release-lab/install/raw/v1/install.ps1 -useb | iex
+   ```
 
 3. [Github release page](https://github.com/axetroy/go-cli-boilerplate/releases) (All platforms)
 
-download the executable file and put the executable file to `$PATH` then try the following command:
-
-```bash
-$ go-cli-boilerplate --help
-```
+   download the executable file and put the executable file to `$PATH`
 
 4. Build and install from source using [Golang](https://golang.org) (All platforms)
 
-```bash
-go install github.com/axetroy/go-cli-boilerplate/cmd/go-cli-boilerplate@v0.1.0
-```
+   ```bash
+   go install github.com/axetroy/go-cli-boilerplate/cmd/forward@latest
+   ```
 
 ### License
 
